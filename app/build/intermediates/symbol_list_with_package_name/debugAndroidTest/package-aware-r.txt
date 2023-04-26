@@ -1,0 +1,3 @@
+com.example.sbook.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sbook"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\GIT\SBook\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\GIT\SBook\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\barba\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.sbook.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\barba\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\barba\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.sbook.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\barba\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\barba\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:5:5-31:19
+18        android:allowBackup="true"
+18-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\barba\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.SBook" >
+28-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:12:9-43
+29        <activity
+29-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:14:9-16:40
+30            android:name="com.example.sbook.SettingsActivity"
+30-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:15:13-45
+31            android:exported="false" />
+31-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:16:13-37
+32        <activity
+32-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:17:9-20:74
+33            android:name="com.example.sbook.AddNoteActivity"
+33-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:18:13-44
+34            android:exported="false"
+34-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:19:13-37
+35            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+35-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:20:13-72
+36        <activity
+36-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:21:9-30:20
+37            android:name="com.example.sbook.MainActivity"
+37-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:22:13-41
+38            android:exported="true"
+38-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:23:13-36
+39            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+39-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:24:13-72
+40            <intent-filter>
+40-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:25:13-29:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:26:17-69
+41-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:28:17-77
+43-->D:\GIT\SBook\app\src\main\AndroidManifest.xml:28:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\barba\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\barba\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+49            android:authorities="com.example.sbook.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\barba\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\barba\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\barba\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\barba\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\barba\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\barba\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\barba\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\barba\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>
